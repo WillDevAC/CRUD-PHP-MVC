@@ -1,0 +1,44 @@
+#simbolo {
+  width: 15%;
+}
+
+.navbar {
+  background-color: #A0522D;
+}
+
+#operador {
+  width: 17%;
+}
+
+#cadeado {
+  font-size: 21px;
+  color: white;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #F4F4F4;
+}
+::-webkit-scrollbar {
+    width: 6px;
+    background: #F4F4F4;
+}
+::-webkit-scrollbar-thumb {
+    background: #dad7d7;
+}
+
+@media only screen and (max-width: 600px) {
+  #simbolo {
+    width: 50%;
+    display: flex;
+    left: 50%;
+  }
+  .navbar {
+    position: relative;
+  }
+  #operador {
+    width: 50%;
+  }
+  #cadeado {
+    font-size: 0px;
+  }
+}
